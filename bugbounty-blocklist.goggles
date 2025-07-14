@@ -1,6 +1,10 @@
 {
   "title": "Block Known Bug Bounty Platforms",
-  "description": "Hides sites like HackerOne, Bugcrowd, Reddit, etc. to surface newer or self-hosted bounty programs.",
+  "description": "Blocks known bug bounty platforms like HackerOne, Bugcrowd, Intigriti, etc., to help surface self-hosted or lesser-known bug bounty programs.",
+  "created_at": "2025-07-14T00:00:00Z",
+  "updated_at": "2025-07-14T00:00:00Z",
+  "author": "aqudas",
+  "homepage": "https://github.com/aqudas",
   "include": [],
   "exclude": [
     "anthropic.com",

@@ -1,80 +1,68 @@
-! name: Bug Bounty Blocklist
-! description: Hides known bug bounty platforms to surface lesser-known or self-hosted programs.
+! name: Exclude Bug Bounty Listing Sites
+! description: Removes known public bug bounty directories from results to focus on self-hosted or lesser-known programs.
 ! public: true
 ! author: aqudas
-! homepage: https://github.com/aqudas
-! avatar: "#ff6600"
-! license: MIT
 
-{
-  "schema_version": "1",
-  "version": "1.0",
-  "created_at": "2025-07-14T00:00:00Z",
-  "updated_at": "2025-07-14T00:00:00Z",
-  "include": [],
-  "exclude": [
-    "anthropic.com",
-    "apple.com",
-    "bbradar.io",
-    "bugbase.ai",
-    "bugbounty.ch",
-    "bugcrowd.com",
-    "cantina.xyz",
-    "civo.com",
-    "code.org",
-    "coinbase.com",
-    "content.techgig.com",
-    "crowdfense.com",
-    "dashlane.com",
-    "drop.org.in",
-    "eicta.iitk.ac.in",
-    "emploi.immigrer.com",
-    "facebook.com",
-    "fortune.com",
-    "fxleaders.com",
-    "geeksforgeeks.org",
-    "gobugfree.com",
-    "gtmcapital.com.br",
-    "hackenproof.com",
-    "hackerone.com",
-    "hackwithsingh.com",
-    "help.aads.com",
-    "help.tryhackme.com",
-    "immunefi.com",
-    "incois.gov.in",
-    "infosecmap.com",
-    "infosecwriteups.com",
-    "inspectiv.com",
-    "instagram.com",
-    "intigriti.com",
-    "investing-support.com",
-    "linkdin.com",
-    "linkedin.com",
-    "medium.com",
-    "mozilla.org",
-    "openbugbounty.org",
-    "outpost.com",
-    "outpost24.com",
-    "paydo.com",
-    "reddit.com",
-    "revolutionized.com",
-    "sensfrx.ai",
-    "service.nsw.gov.au",
-    "sit.tatadigital.in",
-    "strategysoftware.com",
-    "superteam.fun",
-    "synack.com",
-    "syncezy.com",
-    "tatadigital.in",
-    "techgig.com",
-    "techspot.com",
-    "thehackernews.com",
-    "todoist.com",
-    "tryhackme.com",
-    "wordfence.com",
-    "x.com",
-    "yeswehack.com",
-    "youtube.com",
-    "zoom.com"
-  ]
-}
+$discard,site=bugcrowd.com
+$discard,site=www.bugcrowd.com
+$discard,site=hackerone.com
+$discard,site=www.hackerone.com
+$discard,site=intigriti.com
+$discard,site=www.intigriti.com
+$discard,site=yeswehack.com
+$discard,site=www.yeswehack.com
+$discard,site=bugbase.ai
+$discard,site=www.bugbase.ai
+$discard,site=synack.com
+$discard,site=www.synack.com
+$discard,site=zerocopter.com
+$discard,site=www.zerocopter.com
+$discard,site=detectify.com
+$discard,site=www.detectify.com
+$discard,site=safehats.com
+$discard,site=www.safehats.com
+$discard,site=bountyfactory.io
+$discard,site=bountysource.com
+$discard,site=openbugbounty.org
+$discard,site=www.openbugbounty.org
+$discard,site=securityheaders.com
+$discard,site=csirt.gov.in
+$discard,site=bugbountyhq.com
+$discard,site=firebounty.com
+$discard,site=internetbugbounty.org
+$discard,site=exploitbox.io
+$discard,site=seclists.org
+$discard,site=packetstormsecurity.com
+$discard,site=securitytracker.com
+$discard,site=nvd.nist.gov
+$discard,site=cvedetails.com
+$discard,site=exploit-db.com
+$discard,site=github.com
+$discard,site=reddit.com
+$discard,site=stackexchange.com
+$discard,site=stackoverlow.com
+$discard,site=medium.com
+$discard,site=dev.to
+$discard,site=quora.com
+$discard,site=linkedin.com
+$discard,site=twitter.com
+$discard,site=facebook.com
+$discard,site=youtube.com
+$discard,site=instagram.com
+$discard,site=tiktok.com
+$discard,site=pastebin.com
+$discard,site=producthunt.com
+$discard,site=phcorner.net
+$discard,site=thehackernews.com
+$discard,site=cybersecurity-help.cz
+$discard,site=infosecinstitute.com
+$discard,site=infosecwriteups.com
+$discard,site=tryhackme.com
+$discard,site=hackthebox.eu
+$discard,site=htb.academy
+$discard,site=academy.hackthebox.com
+$discard,site=0day.today
+$discard,site=exploit.in
+$discard,site=securityfocus.com
+$discard,site=securitronlinux.com
+$discard,site=netsecfocus.com

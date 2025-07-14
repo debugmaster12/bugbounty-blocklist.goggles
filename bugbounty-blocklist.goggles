@@ -1,10 +1,16 @@
+! name: Bug Bounty Blocklist
+! description: Hides known bug bounty platforms to surface lesser-known or self-hosted programs.
+! public: true
+! author: aqudas
+! homepage: https://github.com/aqudas
+! avatar: "#ff6600"
+! license: MIT
+
 {
-  "title": "Block Known Bug Bounty Platforms",
-  "description": "Blocks known bug bounty platforms like HackerOne, Bugcrowd, Intigriti, etc., to help surface self-hosted or lesser-known bug bounty programs.",
+  "schema_version": "1",
+  "version": "1.0",
   "created_at": "2025-07-14T00:00:00Z",
   "updated_at": "2025-07-14T00:00:00Z",
-  "author": "aqudas",
-  "homepage": "https://github.com/aqudas",
   "include": [],
   "exclude": [
     "anthropic.com",
